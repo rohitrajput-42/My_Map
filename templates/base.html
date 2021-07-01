@@ -12,6 +12,20 @@
   </head>
   <body>
 
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light" style = "background: #D0D0D0;">
+
+      <div class="container">
+         
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><img href = "/" src = "{% static 'logo.png' %}" ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
     <div class = "container" style = "margin-top: 150px;">
       {% block content %}
       {% endblock %}
